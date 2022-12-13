@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    background-color: rgba(112, 112, 112, 1);
+    color: white;
+}
+a
+{
+    background-color: inherit;
+    color: white;
+    text-decoration: none;
+}
+img
+{
+    margin: 2rem;
+}
+p
+{
+    padding: 2rem;
+    background-color: inherit;
+    color: inherit;
+    font-size: 28px;
+}
+.nav
+{
+    display: flex;
+    background-color: rgba(32, 32, 32, 1);
+    height: 6rem;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.navitems
+{
+    display: flex;
+    background-color: rgba(32, 32, 32, 1);
+    height: 2rem;
+    width: 40%;
+    align-content: center;
+    margin: 1rem;
+}
+.item
+{
+    display: flex;
+    background-color: rgba(32, 32, 32, 1);
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+}
+.textbox
+{
+    background-color: rgba(74, 74, 74, 1);
+    width: 80%;
+    height: 24rem;
+    margin-left: 2rem;
+}
+.text
+{
+    background-color: rgba(74, 74, 74, 1);
+    color: white;
+}
+.images
+{
+    display: flex;
+    flex-direction: row;
+}
+.project
+{
+    margin: 2rem;
+    position: relative;
+    height: 20rem;
+    width: 256px;
+}
+.projecttext
+{
+    background-color: rgba(74, 74, 74, 1);
+    opacity: 0.7;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: inherit;
+    height: 10%;
+    color: white;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    align-items: center;
+}
+.projectimg
+{
+    margin: 0;
+}

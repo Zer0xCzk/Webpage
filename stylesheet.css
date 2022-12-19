@@ -32,6 +32,7 @@ p
     justify-content: space-between;
     position: sticky;
     top: 0;
+    z-index: 20;
 }
 .navitems
 {
@@ -81,8 +82,8 @@ p
     position: absolute;
     top: 80%;
     left: 0;
-    width: inherit;
-    height: 10%;
+    width: 15rem;
+    height: 15%;
     color: white;
     padding-top: 1rem;
     padding-left: 1rem;

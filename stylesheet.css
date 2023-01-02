@@ -3,6 +3,12 @@
     margin: 0;
     background-color: rgba(112, 112, 112, 1);
     color: white;
+    font-family: monospace;
+}
+body
+{
+    min-height: 100%;
+    min-width: 100%;
 }
 a
 {
@@ -14,6 +20,12 @@ img
 {
     margin: 2rem;
 }
+h1
+{
+    margin: 2rem;
+    background-color: inherit;
+    color: inherit;
+}
 p
 {
     padding: 2rem;
@@ -21,7 +33,7 @@ p
     color: inherit;
     font-size: 28px;
 }
-.nav
+nav
 {
     display: flex;
     background-color: rgba(32, 32, 32, 1);
@@ -32,6 +44,19 @@ p
     justify-content: space-between;
     position: sticky;
     top: 0;
+    z-index: 20;
+}
+.footer
+{
+    display: flex;
+    background-color: rgba(32, 32, 32, 1);
+    height: 6rem;
+    width: 100%;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
     z-index: 20;
 }
 .navitems
@@ -55,7 +80,7 @@ p
 {
     background-color: rgba(74, 74, 74, 1);
     width: 80%;
-    height: 24rem;
+    height: 80%;
     margin-left: 2rem;
 }
 .text
@@ -68,12 +93,19 @@ p
     display: flex;
     flex-direction: row;
 }
+.projectholder
+{
+    display: flex;
+    margin: 2rem;
+    flex-direction: row;
+}
 .project
 {
     margin: 2rem;
     position: relative;
     height: 20rem;
     width: 256px;
+    box-shadow: 0 0 1rem black;
 }
 .projecttext
 {
@@ -82,7 +114,7 @@ p
     position: absolute;
     top: 80%;
     left: 0;
-    width: 15rem;
+    width: 95%;
     height: 15%;
     color: white;
     padding-top: 1rem;
@@ -91,5 +123,6 @@ p
 }
 .projectimg
 {
+    height: 100%;
     margin: 0;
 }

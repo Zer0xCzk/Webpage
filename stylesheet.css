@@ -7,8 +7,8 @@
 }
 body
 {
-    min-height: 100%;
-    min-width: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 a
 {
@@ -68,7 +68,7 @@ nav
     color: white;
     align-items: center;
     justify-content: space-between;
-    position: static;
+    position: fixed;
     bottom: 0;
     z-index: 20;
     left: 0;
@@ -93,7 +93,7 @@ nav
 .textbox
 {
     background-color: rgba(74, 74, 74, 1);
-    width: 80%;
+    width: 60%;
     height: 80%;
     margin-left: 2rem;
 }
@@ -158,8 +158,8 @@ nav
 }
 .icon
 {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 32px;
+    height: 32px;
 }
 .icon:hover
 {
@@ -169,4 +169,18 @@ nav
 #emptydiv
 {
    content: \n; 
+}
+#smallpagebottom
+{
+    margin-bottom: 15vh;
+}
+#smallimg
+{
+    width: 256px;
+    height: 320px;
+}
+#bigimg
+{
+    width: 640px;
+    height: 320px;
 }

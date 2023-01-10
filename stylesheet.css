@@ -81,6 +81,7 @@ nav
     width: 40%;
     align-content: center;
     margin: 1rem;
+    font-size: 1.8rem;
 }
 .item
 {
@@ -140,6 +141,7 @@ nav
     padding-left: 1rem;
     align-items: center;
     justify-content: center;
+    font-size: 1.4rem;
 }
 .projectimg
 {

@@ -1,53 +1,52 @@
-*
-{
+* {
     margin: 0;
     background-color: rgba(112, 112, 112, 1);
     color: white;
     font-family: monospace;
 }
-body
-{
+
+body {
     min-height: 100vh;
     min-width: 100vw;
 }
-a
-{
+
+a {
     background-color: inherit;
     color: white;
     text-decoration: none;
 }
-a:hover
-{
+
+a:hover {
     color: gray;
 }
-img
-{
+
+img {
     margin: 2rem;
     background-color: transparent;
 }
-h1
-{
+
+h1 {
     margin-top: 2rem;
     padding: 2rem;
     background-color: inherit;
     color: inherit;
 }
-h2
-{
+
+h2 {
     background-color: inherit;
     color: inherit;
     font-size: 20px;
     margin-left: 2rem;
 }
-p
-{
+
+p {
     padding: 2rem;
     background-color: inherit;
     color: inherit;
     font-size: 28px;
 }
-nav
-{
+
+nav, .Footer {
     display: flex;
     background-color: rgba(32, 32, 32, 1);
     height: 6rem;
@@ -55,80 +54,76 @@ nav
     color: white;
     align-items: center;
     justify-content: space-between;
+    z-index: 20;
+}
+
+nav {
     position: sticky;
     top: 0;
-    z-index: 20;
-}
-.footer
-{
-    display: flex;
-    background-color: rgba(32, 32, 32, 1);
-    height: 6rem;
-    width: 100%;
-    color: white;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    bottom: 0;
-    z-index: 20;
     left: 0;
 }
-.navitems
-{
+
+.Footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.NavItems {
     display: flex;
     background-color: rgba(32, 32, 32, 1);
     height: 2rem;
-    width: 40%;
+    width: 60%;
     align-content: center;
     margin: 1rem;
-    font-size: 1.8rem;
 }
-.item
-{
+
+.Item {
     display: flex;
     background-color: rgba(32, 32, 32, 1);
     width: 100%;
     color: white;
     justify-content: space-around;
+    font-size: 1.8rem;
 }
-.textbox
-{
+
+.TextBox {
     background-color: rgba(74, 74, 74, 1);
     width: 60%;
     height: 80%;
     margin-left: 2rem;
 }
-.text
-{
+
+.Text {
     background-color: rgba(74, 74, 74, 1);
     color: white;
 }
-.images
-{
+
+.Images {
     display: flex;
     flex-direction: row;
 }
-.projectholder
-{
+
+.ProjectHolder {
     display: flex;
     margin: 2rem;
     flex-direction: row;
     height: 28rem;
 }
-.project
-{
+
+.Project {
     margin: 2rem;
     position: relative;
     height: 20rem;
     width: 256px;
 }
-.project:hover
-{
+
+.Project:hover {
     height: 22rem;
     width: 288px;
 }
-.projecttext
-{
+
+.ProjectText {
     background-color: rgba(74, 74, 74, 1);
     opacity: 0.7;
     position: absolute;
@@ -143,50 +138,50 @@ nav
     justify-content: center;
     font-size: 1.4rem;
 }
-.projectimg
-{
+
+.ProjectImg {
     margin: 0;
     box-shadow: 0 0 1rem black;
     height: 120%;
     width: 100%;
 }
-.socialholder
-{
+
+.SocialHolder {
     width: 100%;
     height: 10%;
     flex-direction: column;
     background-color: inherit;
     color: inherit;
 }
-.icon
-{
+
+.Icon {
     width: 32px;
     height: 32px;
 }
-.icon:hover
-{
+
+.Icon:hover {
     width: 3rem;
     height: 3rem;
 }
-#emptydiv
-{
-   content: \n; 
+
+#EmptyDiv {
+    content: none;
 }
-#smallpagebottom
-{
-    margin-bottom: 15vh;
+
+#SmallPageBottom {
+    margin-bottom: 30vh;
 }
-#smallimg
-{
+
+#SmallImg {
     width: 256px;
     height: 320px;
 }
-#bigimg
-{
+
+#BigImg {
     width: 640px;
     height: 320px;
 }
-#decorated
-{
+
+#Decorated {
     text-decoration: underline;
 }
